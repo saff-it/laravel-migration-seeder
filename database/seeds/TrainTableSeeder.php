@@ -15,6 +15,7 @@ class TrainTableSeeder extends Seeder
                 'arrival_station'=> 'Roma',
                 'departure_time'=> '12:00',
                 'arrival_time'=> '15:00',
+                'departure_date'=> '2022/12/22',
                 'train_code'=> 'AK154774',
                 'coach_number'=> 9,
                 'is_on_time'=> true,
@@ -26,6 +27,7 @@ class TrainTableSeeder extends Seeder
                 'arrival_station'=> 'La Spezia',
                 'departure_time'=> '10:00',
                 'arrival_time'=> '1:00',
+                'departure_date'=> '2022/12/22',
                 'train_code'=> 'SS154792',
                 'coach_number'=> 4,
                 'is_on_time'=> true,
@@ -37,6 +39,7 @@ class TrainTableSeeder extends Seeder
                 'arrival_station'=> 'Siracusa',
                 'departure_time'=> '1:00',
                 'arrival_time'=> '19:00',
+                'departure_date'=> '2022/12/22',
                 'train_code'=> 'WR18515',
                 'coach_number'=> 1,
                 'is_on_time'=> false,
@@ -51,6 +54,7 @@ class TrainTableSeeder extends Seeder
             $newTrain->arrival_station = $train['arrival_station'];
             $newTrain->departure_time = $train['departure_time'];
             $newTrain->arrival_time = $train['arrival_time'];
+            $newTrain->departure_date = $train['departure_date'];
             $newTrain->train_code = $train['train_code'];
             $newTrain->coach_number = $train['coach_number'];
             $newTrain->is_on_time = $train['is_on_time'];
